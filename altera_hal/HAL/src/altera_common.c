@@ -74,7 +74,7 @@ int alt_dev_llist_insert (alt_dev_llist* dev, alt_llist* list)
 }
 
 #include "priv/alt_busy_sleep.h"
-#include <kernel.h>
+#include <zephyr/kernel.h>
 unsigned int alt_busy_sleep (unsigned int us)
 {
 	k_busy_wait(us);
