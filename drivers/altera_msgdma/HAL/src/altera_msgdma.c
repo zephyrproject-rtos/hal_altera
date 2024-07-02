@@ -1494,7 +1494,7 @@ void alt_msgdma_init (alt_msgdma_dev *dev, alt_u32 ic_id, alt_u32 irq)
     	 * This reset is intended to be used along with reset dispatcher in 
     	 * dispatcher core. Once the reset sequence in prefetcher core has 
     	 * completed, software is expected to reset the dispatcher core, 
-    	 * and polls for dispatcher’s reset sequence to be completed.
+    	 * and polls for dispatcher's reset sequence to be completed.
     	 */
     }    
     
