@@ -27,11 +27,11 @@
 ******************************************************************************/
 
 #include <string.h>
-#include <fcntl.h>
+#include <zephyr/posix/fcntl.h>
 #include <errno.h>
 #include <limits.h>
 
-#include <sys/stat.h>
+#include <zephyr/posix/sys/stat.h>
 
 #include "sys/alt_irq.h"
 #include "sys/alt_alarm.h"
